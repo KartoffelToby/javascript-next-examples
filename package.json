@@ -1,0 +1,30 @@
+{
+  "name": "ts-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-generator-functions": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "ts-node": "^6.0.3",
+    "typescript": "^2.8.3"
+  },
+  "quokka": {
+    "babel": {
+      "presets": [
+        "es2017"
+      ],
+      "plugins": [
+        "transform-async-generator-functions"
+      ]
+    }
+  }
+}
