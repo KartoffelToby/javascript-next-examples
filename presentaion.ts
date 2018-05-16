@@ -9,6 +9,11 @@
 
 import axios, { AxiosResponse } from 'axios';
 
+const hans = "Hans";
+let peter = "Peter";
+var Gustav = "Gustav";
+
+
 // Types:
 const nummer:Number = 5;
 
