@@ -153,3 +153,183 @@ const getUsers = async (): Promise<Array<User>> =>{
 //main();
 
 //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Spread 
+
+const objectOne:Object = { name: 'Lisa Haber', age: 22 };
+const objectTwo:Object = { name: 'Lisa Haber', role: 'Web-Application-Developer' };
+const objectThree:Object = { name: 'Tobias Haber', color: 'blue' };
+
+const merged:Object = {...objectOne, ...objectTwo,...objectThree};
+
+//console.log(merged); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Arrow
+
+const justAFunction = (x, y)=> {
+     return x * y;
+};
+
+const output = justAFunction(10,3); 
+
+//console.log(output);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Function with dynamic input
+
+const multi = (...input)=>{
+    console.log(input);
+    return input[0]+"_first";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Generators
+function* someDragons() {
+  yield 'fluffykins the lighting dragon'
+  yield 'waffle the time dragon'
+  yield 'hardy the dog'
+}
+
+const generator = someDragons()
+//console.log(generator.next())
+//console.log(generator.next())
+//console.log(generator.next())
+//console.log(generator.next())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// for loop
+
+const dragons = [ 'cool dragon', 'angry dragon', 'nasty dragon' ]
+for (const dragon of dragons) {
+  console.log(dragon)
+}
