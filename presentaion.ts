@@ -1,4 +1,4 @@
-// Some Config shit
+// Some Config Shit
 ({
     babel: true
 })
@@ -21,6 +21,44 @@ const array:Array<String> = ['one','two'];
 const array2:Array<Number> = [1,2];
 
 const array3:Array<any> = [1,2,"demo"];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class User {
     private _id: Number;
@@ -73,6 +111,32 @@ class User {
 export default User;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const main = async ()=> {
     let users: Array<User> = await getUsers();
     console.log('Users', users);
@@ -85,6 +149,6 @@ const getUsers = async (): Promise<Array<User>> =>{
     return users;
 }
 
-main();
+//main();
 
 //

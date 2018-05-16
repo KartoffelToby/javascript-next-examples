@@ -6,8 +6,8 @@
 
 // Spread 
 
-const objectOne:Object = { name: 'Tobias Haber', age: 22 };
-const objectTwo:Object = { name: 'Tobias Haber', role: 'Web-Application-Developer' };
+const objectOne:Object = { name: 'Lisa Haber', age: 22 };
+const objectTwo:Object = { name: 'Lisa Haber', role: 'Web-Application-Developer' };
 const objectThree:Object = { name: 'Tobias Haber', color: 'blue' };
 
 const merged:Object = {...objectOne, ...objectTwo,...objectThree};
