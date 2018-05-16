@@ -140,6 +140,7 @@ export default User;
 const main = async ()=> {
     let users: Array<User> = await getUsers();
     console.log('Users', users);
+    console.log(`EMAIL: ${users[0].email}, USER: ${users[0].username}`)
 }
 
 const getUsers = async (): Promise<Array<User>> =>{
